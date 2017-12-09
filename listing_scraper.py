@@ -22,12 +22,14 @@ def scrape_listing(url):
     #pull out text into lists
     label_list = []
     value_list = []
+    listing_name = []
     for i, tag in enumerate(listing_labels):
         label_list.append(listing_labels[i].text)
         value_list.append(listing_values[i].text)
+        listing_name.append('{0}'.format(os.path.splitext(url)[0]))
        # print label_list[i], ":", value_list[i]
     
-    list_data = {'labels': label_list, 'values': value_list}    
+    list_data = {'labels': label_list, 'values': value_list, 'address': listing_name}    
     listing_df = pd.DataFrame(data = list_data)
     listing_df = listing_df.drop_duplicates()
     #listing_df.index = listing_df['labels']
@@ -42,33 +44,33 @@ def merge_data(dir):
         if listing.endswith('.html'):
             listing_df = scrape_listing(listing)
             if merged_df.empty:
-                print "EMPTY"
+                #print "EMPTY"
                 merged_df = listing_df 
             else:
-                # merged_df = pd.concat([merged_df, listing_df], 
-                    # axis=1, join_axes=[merged_df.index])
-                #merged_df = pd.merge(merged_df, listing_df, on=['labels', 'values'] , how='outer')
-                #merged_df = merged_df.drop_duplicates()
+                # merged_df = merged_df.set_index('labels').join(
+                    # listing_df.
+                    # set_index('labels'),how='outer', lsuffix='_merged', 
+                    # rsuffix='_listing')
+                merged_df = pd.concat([merged_df, listing_df])
                 
-                merged_df = merged_df.set_index('labels').join(
-                    listing_df.
-                    set_index('labels'),how='outer', lsuffix='_merged', 
-                    rsuffix='_listing')
-              
         else:
             continue
     merged_df.to_csv('merged_df.csv')
-
+    merged_pivot = merged_df.pivot(index='labels',
+                    columns='address', values = 'values')
+    merged_pivot.to_csv('merged_pivot.csv')
 
 def main():
-    #listing_url = r"archstreet.html"
-    dir = 'C:\Users\Tom\Documents\Scripts\listing_scraper\listings'
     cwd = os.getcwd()
+    
+    dir = os.path.join(cwd, "listings")
     os.chdir(dir)
     merge_data(dir)
     os.chdir(cwd)
+    
+
 if __name__ == "__main__":
-    main()
+   main()
 
 
 
