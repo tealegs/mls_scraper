@@ -1,0 +1,94 @@
+,labels,values
+0,MLS #,201810011
+1,Class,TWO FAMILY
+2,Type,2 Family
+3,List Price,"$174,900"
+4,Sale/Rent,For Sale
+5,Unit #1 Rent,"$1,250"
+6,Unit1 Rent Description,Actual
+7,Unit #2 Rent,"$1,250"
+8,Unit2 Rent Description,Actual
+9,Address,211 QUAIL ST
+10,City/Town (Mail Address),Albany
+11,City/Town (taxing entity),Albany
+12,State,NY
+13,Zip,12208
+14,County,Albany
+15,Status,Active
+16,Public Remarks,"Great Rental area between St Rose & SUNY Albany, downtown campus. Always rented - looks much better on the inside than the outside. Excellent rents."
+17,Directions 1,WESTERN AVE TO R ON QUAIL
+18,Age (NOT year built),119
+19,Total Bedrooms Unit 1,3
+20,Total Bedrooms Unit 2,3
+21,Total Full Baths Unit 1,1
+22,Total Full Baths Unit 2,1
+23,Total Partial Bths Unit 1,0
+24,Total Partial Bths Unit 2,0
+25,Off Street Parking,No
+26,Total Taxes,"5,120"
+27,Locale,ST ROSE
+28,Projected School,3056
+29,School District Code,Albany
+30,School Taxes,"2,951"
+31,ATTIC,Hatch
+32,BASEMENT,Full
+33,CONDITION,Very Good
+34,COOLING TYPE,None
+35,EXTERIOR,Aluminum
+36,GARAGE DESCRIPTION,None
+37,HEAT FUEL,Natural Gas
+38,HEAT SYSTEM,Hot Water
+39,LAUNDRY,Bathroom
+40,PROPERTY DESCRIPTION,Up-and-Down
+41,ROOF,Rubber
+42,SEPARATE UTILITIES,"Electric, Gas, Heat, Water Heater"
+43,SEWER,Public
+44,SHOWING INSTRUCTIONS,Lockbox
+45,SPECIAL MARKET CONDITIONS,No Special Conditions
+46,UNIT #1 AMENITIES,"Ceramic Tile, Built-In Cabinets, Wood Floors"
+47,UNIT #1 APPLIANCES,"Range w/Oven, Refrigerator"
+48,UNIT #1 DINING ROOM TYPE,Dining Area
+49,UNIT #1 OCCUPIED,Leased
+50,UNIT #2 AMENITIES,"Ceramic Tile, Wood Floors"
+51,UNIT #2 APPLIANCES,"Range w/Oven, Refrigerator"
+52,UNIT #2 DINING ROOM TYPE,Dining Area
+53,UNIT #2 OCCUPIED,Leased
+54,WATER,Public
+55,Above Ground SQFT,2378
+56,Handicap Access,No
+57,Unit #1 Kitchen,Eat In
+58,Unit1 Kitchens on 1st Flr,1
+59,Unit1 Bedrooms in Bsmt,0
+60,Unit1 Bedrooms on 1st Flr,3
+61,Unit1 Bedrooms on 2nd Flr,0
+62,Unit1 Bedrooms on 3rd Flr,0
+63,Unit1 Din Rms on 1st Flr,1
+64,Unit1 Full Baths in Bsmt,0
+65,Unit1 Full Bths on1st Flr,1
+66,Unit1 Full Bths on2nd Flr,0
+67,Unit1 Full Bths on3rd Flr,0
+68,Unit1 Liv Rms on 1st Flr,1
+69,Unit1 Oth Rms on 1st Flr,1
+70,Unit1 Partial Bth 1st Flr,0
+71,Unit1 Partial Bth 2nd Flr,0
+72,Unit1 Partial Bth 3rd Flr,0
+73,Unit1 Partial Bth in Bsmt,0
+74,Unit1 Possession,ARR
+75,Unit #2 Kitchen,Eat In
+76,Unit2 Kitchens on 2nd Flr,1
+77,Unit2 Bedrooms in Bsmt,0
+78,Unit2 Bedrooms on 1st Flr,0
+79,Unit2 Bedrooms on 2nd Flr,3
+80,Unit2 Bedrooms on 3rd Flr,0
+81,Unit2 Din Rms on 2nd Flr,1
+82,Unit2 Full Baths in Bsmt,0
+83,Unit2 Full Bths on1st Flr,0
+84,Unit2 Full Bths on2nd Flr,1
+85,Unit2 Full Bths on3rd Flr,0
+86,Unit2 Liv Rms on 2nd Flr,1
+87,Unit2 Other Rm on 2nd Flr,1
+88,Unit2 Partial Bth 1st Flr,0
+89,Unit2 Partial Bth 2nd Flr,0
+90,Unit2 Partial Bth 3rd Flr,0
+91,Unit2 Partial Bths Bsmt,0
+92,Unit2 Possession,ARR

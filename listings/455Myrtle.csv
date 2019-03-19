@@ -1,0 +1,93 @@
+,labels,values
+0,MLS #,201810016
+1,Class,TWO FAMILY
+2,Type,2 Family
+3,List Price,"$260,000"
+4,Sale/Rent,For Sale
+5,Unit #1 Rent,"$1,000"
+6,Unit1 Rent Description,Actual
+7,Unit #2 Rent,"$1,110"
+8,Unit2 Rent Description,Actual
+9,Address,455 MYRTLE AV
+10,City/Town (Mail Address),Albany
+11,City/Town (taxing entity),Albany
+12,State,NY
+13,Zip,12208
+14,County,Albany
+15,Status,Active
+16,Public Remarks,Solid 2 Family - Always rented. Separate utilities. 48 hour notice to show. Contact LA.
+17,Directions 1,SOUTH LAKE AVE TO MYRTLE AVE.
+18,Age (NOT year built),83
+19,Total Bedrooms Unit 1,2
+20,Total Bedrooms Unit 2,3
+21,Total Full Baths Unit 1,1
+22,Total Full Baths Unit 2,1
+23,Total Partial Bths Unit 1,0
+24,Total Partial Bths Unit 2,0
+25,Off Street Parking,No
+26,Total Taxes,"4,499"
+27,School District Code,Albany
+28,School Taxes,"2,804"
+29,School Taxes Description,Actual
+30,ATTIC,Full
+31,BASEMENT,Full
+32,CONDITION,Excellent
+33,COOLING TYPE,None
+34,EXTERIOR,"Aluminum, Vinyl"
+35,GARAGE DESCRIPTION,None
+36,HEAT FUEL,Natural Gas
+37,HEAT SYSTEM,Radiator
+38,LAUNDRY,Basement
+39,LOT DESCRIPTION,Level
+40,PROPERTY DESCRIPTION,Up-and-Down
+41,ROOF,Asphalt Shingle
+42,SEPARATE UTILITIES,"Electric, Gas, Heat, Water Heater"
+43,SEWER,Public
+44,SHOWING INSTRUCTIONS,See Remarks
+45,SPECIAL MARKET CONDITIONS,No Special Conditions
+46,UNIT #1 AMENITIES,"Ceramic Tile, Country Kitchen, Wall-Wall Over Hardwood, High Speed Internet, Cable Television"
+47,UNIT #1 APPLIANCES,"Range w/Oven, Refrigerator, Dishwasher"
+48,UNIT #1 DINING ROOM TYPE,Formal Dining Room
+49,UNIT #1 OCCUPIED,Month-to-Month
+50,UNIT #2 AMENITIES,"Ceramic Tile, Country Kitchen, Wall-Wall Over Hardwood, High Speed Internet"
+51,UNIT #2 APPLIANCES,"Range w/Oven, Refrigerator, Dishwasher"
+52,UNIT #2 DINING ROOM TYPE,Formal Dining Room
+53,UNIT #2 OCCUPIED,Month-to-Month
+54,WATER,Public
+55,Above Ground SQFT,2040
+56,Handicap Access,No
+57,Unit #1 Kitchen,Eat In
+58,Unit1 Kitchens on 1st Flr,1
+59,Unit1 Bedrooms in Bsmt,0
+60,Unit1 Bedrooms on 1st Flr,2
+61,Unit1 Bedrooms on 2nd Flr,0
+62,Unit1 Bedrooms on 3rd Flr,0
+63,Unit1 Din Rms on 1st Flr,1
+64,Unit1 Full Baths in Bsmt,0
+65,Unit1 Full Bths on1st Flr,1
+66,Unit1 Full Bths on2nd Flr,0
+67,Unit1 Full Bths on3rd Flr,0
+68,Unit1 Liv Rms on 1st Flr,1
+69,Unit1 Partial Bth 1st Flr,0
+70,Unit1 Partial Bth 2nd Flr,0
+71,Unit1 Partial Bth 3rd Flr,0
+72,Unit1 Partial Bth in Bsmt,0
+73,Unit1 Possession,ARR
+74,Unit #2 Kitchen,Eat In
+75,Unit2 Kitchens on 2nd Flr,1
+76,Unit2 Bedrooms in Bsmt,0
+77,Unit2 Bedrooms on 1st Flr,0
+78,Unit2 Bedrooms on 2nd Flr,3
+79,Unit2 Bedrooms on 3rd Flr,0
+80,Unit2 Din Rms on 2nd Flr,1
+81,Unit2 Full Baths in Bsmt,0
+82,Unit2 Full Bths on1st Flr,0
+83,Unit2 Full Bths on2nd Flr,1
+84,Unit2 Full Bths on3rd Flr,0
+85,Unit2 Liv Rms on 2nd Flr,1
+86,Unit2 Other Rm on 2nd Flr,1
+87,Unit2 Partial Bth 1st Flr,0
+88,Unit2 Partial Bth 2nd Flr,0
+89,Unit2 Partial Bth 3rd Flr,0
+90,Unit2 Partial Bths Bsmt,0
+91,Unit2 Possession,ARR
