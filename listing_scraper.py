@@ -22,11 +22,13 @@ def scrape_listing(url):
     #pull out text into lists
     label_list = []
     value_list = []
+    listing_dict={}
     for i, tag in enumerate(listing_labels):
+        listing_dict[listing_labels[i].text] = listing_values[i].text
         label_list.append(listing_labels[i].text)
         value_list.append(listing_values[i].text)
        # print label_list[i], ":", value_list[i]
-    
+    print listing_dict
     list_data = {'labels': label_list, 'values': value_list}    
     listing_df = pd.DataFrame(data = list_data)
     listing_df = listing_df.drop_duplicates()
@@ -83,10 +85,10 @@ def merge_data2(dir):
                 #merged_df.set_index('labels')
             else:
                 merged_df = pd.concat([merged_df, listing_df], axis=1)
-    #latlong = pd.DataFrame({'Lat/Long':merged_df.loc['Address'].apply(get_latlong)})
-    #print latlong
-    #merged_df = merged_df.append(merged_df.loc['Address'].apply(get_latlong))
-    #merged_df = merged_df.append(latlong)
+    # latlong = pd.DataFrame({'Lat/Long':merged_df.loc['Address'].apply(get_latlong)})
+    # print latlong
+    # merged_df = merged_df.append(merged_df.loc['Address'].apply(get_latlong))
+    # merged_df = merged_df.append(latlong)
     merged_df.to_csv('merged_df.csv')
 def main():
     #listing_url = r"archstreet.html"
